@@ -36,7 +36,7 @@ p {
     font-family: inhert;
     color: #5e5e5e;
     font-size: 1.4vw;
-    line-height: 25px;
+    line-height: 28px;
     text-align: left;
 }
 
@@ -65,6 +65,7 @@ p {
 .topnav {
     display: flex;
     justify-content: space-between;
+    padding: 38px;
 }
 
 
@@ -111,9 +112,9 @@ p {
 
 content img {
     display: flex;
-    justify-content: center;
-    margin: 0 20px;
-    padding: 0 10px;
+    position: relative;
+    margin: 0 auto;
+    padding: 0 auto;
 }
 
 
@@ -125,53 +126,54 @@ main p {
     padding-left: 40px;
 }
 
-/* flexbox styling start */
+main h2 {
+    padding-bottom: 20px;
+    font-size: 2.3vw;
+}
+
+/* Sect6ion */
 section{
     display: flex;
     flex-wrap: wrap;
-}
+    justify-content: center;
+   }
 
 
 section h2 {
-    border-right: 3px solid var(--primary);
-    padding: 0 10px 10px 0;
+    border-bottom: 3px solid var(--primary);
+    padding: 20px;
 }
 
-
-.main-container {
+/* flexbox styling start */
+.container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 300px;
-  }
-  
-.main-container > div {
-    background-color: #f1f1f1;
-    color: white;
-    width: 480px;
-    height: 480px;
-  }
-
-
-.sub-container {
-    display: flex;
-    height: 600px;
     flex-wrap: wrap;
-    align-content: center;
-    overflow: scroll;
-  }
-  
-.sub-container > div {
-    background-color: #f1f1f1;
-  width: 100px;
-  margin: 10px;
-  text-align: center;
-  line-height: 75px;
-  font-size: 30px;
-
+    flex-direction: row;    
+    max-height: 100vh;
   }
 
+.container ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.container li {
+    width: 25%;
+    /* gets rid of the bullets */
+    list-style: none;
+    flex-wrap: wrap;
+    padding: 2.5px;
+    margin: 2.5px;
+    border: 2.5px;
+}
+
+.container img {
+    width: 100%;
+   
+}
+
+ 
 /* flexbox styling end */
 
 /* footer */
@@ -202,6 +204,7 @@ footer h2 {
 .footer-nav a {
     text-decoration: none;
     padding-left: 20px; 
+    font-size: 1.4vw;
 }
 
 /* unvisited link */
@@ -234,6 +237,7 @@ footer h2 {
     img {
         max-width: 275px;
     }
+
   }
 
   
