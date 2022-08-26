@@ -20,7 +20,7 @@ Provide instructions and examples for use. Include screenshots as needed.
 
     ```
     Screenshoot
-    ![screenshot](assets/images/#)
+    ![screenshot](assets/images/screenshot)
 
     Deployed project link
     https://browncab.github.io/CalahBrownPortfolio/
