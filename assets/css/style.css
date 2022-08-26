@@ -300,7 +300,7 @@ footer h2 {
 
  /* ----------- Tablet ----------- */ 
 /* Portrait and Landscape */
-@media only screen 
+@media only screen
 and (min-device-width: 834px) 
 and (max-device-width: 1112px)
 and (-webkit-min-device-pixel-ratio: 2) {
@@ -320,6 +320,8 @@ and (-webkit-min-device-pixel-ratio: 2) {
         font-size: 16px;
     }
 
-.content img {
+    .content img {
     width: 50%;
  }
+
+}
