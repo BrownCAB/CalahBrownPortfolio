@@ -18,14 +18,14 @@ I learned the fundamentals of a responsive web development like the use flexbox,
 ## Usage
 Provide instructions and examples for use. Include screenshots as needed. 
 
-    ```
+    
     Screenshoot
     ![screenshot](assets/images/screenshot)
 
     Deployed project link
     https://browncab.github.io/CalahBrownPortfolio/
 
-    ```
+    
 
 ## Credits
 cOldlimit's git_newrepo for helping resolve git push issues.
